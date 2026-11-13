@@ -1,0 +1,24 @@
+# Materiale NON distribuibile (il controllo dei segreti va fatto anche prima del push)
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+*secret*
+*password*
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.odt
+*.ttf
+*.otf
+__pycache__/
+*.pyc
+dist/
+build/
+*.part
+*.tmp
